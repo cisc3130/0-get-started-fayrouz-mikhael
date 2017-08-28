@@ -1,0 +1,10 @@
+language: c++
+#include <iostream>
+
+int main()
+{
+  std::cout << "Hello World!";
+}
+script:
+ - g++ helloworld.cpp
+ - ./a.out
